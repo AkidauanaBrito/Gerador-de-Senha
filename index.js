@@ -16,3 +16,7 @@ sizePassword.innerHTML = sliderElement.value;
 sliderElement.oninput = function() {
     sizePassword.innerHTML = this.value;
 }
+
+function generatePassword() {
+    alert("VAMOS GERAR A SENHA")
+}
