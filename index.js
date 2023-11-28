@@ -18,5 +18,9 @@ sliderElement.oninput = function() {
 }
 
 function generatePassword() {
-    alert("VAMOS GERAR A SENHA")
+    
+    let pass = "";
+    for(let i = 0, n = charset.length; i < sliderElement.value; i++){
+        pass += charset.charAt(math.floor(math.random() * n))
+    }
 }
